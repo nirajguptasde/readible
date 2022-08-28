@@ -1,3 +1,57 @@
+/**
+* fonts and typography
+* Common elements
+**/
+
+/* fonts and typography */
+
+:root {
+  --color-light-gray: #eaeaeb;
+  --color-white: #fff;
+  --color-dark-gray: #6e6e79;
+  --color-black: #0d0f20;
+  --color-blue: #4c54a0;
+}
 body {
-	background-color: red;
+  background-color: var(--color-light-gray);
+  color: #0d0f20;
+  font-family: "Heebo", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Merriweather", serif;
+  margin-top: 2rem;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+p {
+  margin-bottom: 1.6rem;
+  line-height: 1.5;
+}
+
+/* common elements */
+
+.nav-horizontal {
+  display: flex;
+  align-items: center;
+}
+
+.nav-horizontal a {
+  color: grey;
+  padding: 0 0.5rem;
 }

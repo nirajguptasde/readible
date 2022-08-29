@@ -54,4 +54,24 @@ p {
 .nav-horizontal a {
   color: grey;
   padding: 0 0.5rem;
+  text-decoration: none;
+}
+
+.category-pill {
+  display: inline-block;
+  background-color: var(--color-blue);
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 0.3rem 0.5rem;
+}
+
+.icon {
+  display: inline-block;
+  height: 3vw;
+}
+
+.icon img {
+  height: 100%;
 }
